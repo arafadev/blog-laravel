@@ -24,7 +24,6 @@ class PostFormRequest extends FormRequest
     public function rules()
     {
         $rules =  [
-            // لو انت نسيت تكتب حقل موجود ف الفوم عشان تعمله فاليديشن هنا يبقي مش هيتبعت ف الريكويست ... الخلاصه لازم كل حقول الفورم تتأكد منها هنا لو نسيت تكتب حقل هنا مثلا الحقل دا مش هيعدي ف الريكويست لأن كل حقول 
             'category_id' => [
                 'required',
                 'integer'
